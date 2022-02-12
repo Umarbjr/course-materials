@@ -1,1 +1,6 @@
 You might need to do a "go mod init bhg-scanner" or "go mod tidy"
+
+The code scans chanels 1 - 1024 for any ports, and outputs the results and their status. 
+I modified the code to timeout in 20 seconds for each port, using DialTimeout. 
+I also changed the program to, take in teh number of chanels to check and output both the closed and open ports.
+In addition, I updated the tests to account for the changes I made.
