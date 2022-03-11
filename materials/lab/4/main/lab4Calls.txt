@@ -1,0 +1,59 @@
+"/"
+Welcome to my awesome assignment site
+
+"/api-status"
+API is up and running
+
+"/assignments"
+[
+    {
+        "id": "Mike1A",
+        "Course": "COSC 4010",
+        "Title": "Lab 4 ",
+        "desc": "Some lab this guy made yesteday?",
+        "points": 20,
+        "due": "Mar 11, 11:59pm"
+    }
+]
+
+"/assignment/{id}" id=Mike1A
+{
+    "id": "Mike1A",
+    "Course": "COSC 4010",
+    "Title": "Lab 4 ",
+    "desc": "Some lab this guy made yesteday?",
+    "points": 20,
+    "due": "Mar 11, 11:59pm"
+}
+
+"/create-assignment"
+{
+    "status": "Success"
+}
+
+"/update-assignment"
+{
+    "status": "Success"
+}
+
+"/delete-assignment/{id}" 
+{"status":"Success"}
+
+"/courses"
+[
+    {
+        "id": "COSC 4010",
+        "Name": "CyberSecurity",
+        "desc": "Learn to hack & not get hacked",
+        "code": 4010,
+        "instr": "Mike"
+    }
+]
+
+"/create-course"
+{
+    "status": "Success"
+}
+
+"/delete-course/{id}"
+{"status":"Success"}
