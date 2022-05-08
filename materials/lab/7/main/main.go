@@ -21,7 +21,7 @@ func main() {
 	var drmike1 = "90f2c9c53f66540e67349e0ab83d8cd0"
 	var drmike2 = "1c8bfe8f801d79745c4631d09fff36c82aa37fc4cce4fc946683d7b336b63032"
 
-	// not found in lulzsec.txt
+	// found in lulzsec.txt
 
 	// NON CODE - TODO
 	// Download and use bigger password file from: https://weakpass.com/wordlist/tiny  (want to push yourself try /small ; to easy? /big )

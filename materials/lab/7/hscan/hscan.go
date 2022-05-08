@@ -126,6 +126,7 @@ func GenHashMaps(filename string) {
 func GetSHA(hash string) (string, error) {
 	password, ok := shalookup[hash]
 	if ok {
+		log.Printf("[+] Password found (SHA256): %s\n", password)
 		return password, nil
 
 	} else {
@@ -139,6 +140,7 @@ func GetSHA(hash string) (string, error) {
 func GetMD5(hash string) (string, error) {
 	password, ok := md5lookup[hash]
 	if ok {
+		log.Printf("[+] Password found (MD5): %s\n", password)
 		return password, nil
 
 	} else {
